@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSA Term Project 106060007</title>
+    <link rel="stylesheet" type="text/css" href="projectstyle.css">
+</head>
+
+<script language="JavaScript">
+    function ShowDateTime(){
+        var now=new Date();
+        var y=now.getFullYear();
+        var M=now.getMonth()+1;
+        var d=now.getDate();
+        var h=now.getHours();
+        var m=now.getMinutes();
+        var s=now.getSeconds();
+        document.getElementById('showdt').innerHTML = y+'-'+M+'-'+d+' '+h+':'+m+':'+s+'';
+    }timerID = setInterval("ShowDateTime()",1000);
+    </script>
+
+<body onload="ShowDateTime()">
+
+    <div id="time">
+        <span id="showdt"></span>
+    </div>
+    
+    <div id="header">
+        <h1>一個肥宅der天地</h1>
+    </div>
+    
+    <div id="list">
+        <p>喜歡的運動：
+            <ul>
+                <li>籃球</li>
+                <li>騎腳踏車</li>
+                <li>游泳</li>
+            </ul>
+        </p>
+    
+        <p>目前常玩的遊戲：
+            <ol>
+                <li>Fate/ Grand Order</li>
+                <li>Tales of Berseria</li>
+                <li>Fate Extella-Link</li>
+            </ol>
+        </p>
+    </div>
+
+    <div id="intro">
+        <p>
+            <img src = "Mark.jpg" alt = "selfie" width="200" height="200"/><br>
+            安安各位，我只是一枚喜歡玩遊戲der肥宅<br>
+            目前就讀於清華大學電機資訊學院學士班<br>
+            希望能一起交流遊戲心得<br>
+            也希望能順利畢業～～
+        </p>
+    </div>
+    
+    <div id="link">
+        <p>
+            <a href="https://www.facebook.com/mark51302lee">
+                <img src = "facebook.png" alt = "facebook icon" width="100" height="100"/>
+            </a>
+            <a href="https://www.instagram.com/mark51302lee/?hl=zh-tw">
+                <img src = "instagram.png" alt = "instagram icon" width="95" height="95"/>
+            </a>
+            <a href="mailto:mark51302lee@gmail.com">
+                <img src = "gmail.png" alt = "gmail icon" width="120" height="100"/>
+            </a>
+        </p>
+    </div>
+    
+</bodyonload="ShowDateTime()">
+
+</html>

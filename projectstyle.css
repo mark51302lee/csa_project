@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+}
+
+#time {
+    background-color: black;
+    color:white;
+    width:300px;
+    height:150px;
+    text-align:center;
+    line-height: 150px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    float:left;
+}
+
+#header {
+    background-color: lightskyblue;
+    color:white;
+    width:500px;
+    height:150px;
+    text-align:center;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    float:left;
+}
+
+#list {
+    clear: both;
+    background-color: aquamarine;
+    color: black;
+    height:400px;
+    width:250px;
+    float:left;
+    padding:25px;
+    font-size: 24px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif, 微軟正黑體;	 	 
+}
+
+#intro {
+    background-color: blanchedalmond;
+    color:black;
+    height:400px;
+    width:450px;
+    text-align:center;
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    padding:25px;
+    float:left;     
+}
+
+
+#link {
+    background-color:azure;
+    width:800px;
+    padding:30px;
+    clear:both;
+    text-align:center; 
+}
